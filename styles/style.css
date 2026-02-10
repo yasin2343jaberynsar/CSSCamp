@@ -1,0 +1,39 @@
+/* Make the download box responsive */
+@media (max-width: 768px) {
+    .w-40 {
+        width: 90% !important;
+        height: auto !important;
+        min-height: 300px;
+        padding: 20px !important;
+    }
+    
+    .font-size-26 {
+        font-size: 20px !important;
+    }
+    
+    .download {
+        flex-direction: column !important;
+    }
+    
+    .btn-bt {
+        width: 100% !important;
+        margin: 10px 0 !important;
+        text-align: center;
+    }
+}
+
+/* Also add viewport units for better mobile */
+@media (max-width: 480px) {
+    .w-40 {
+        width: 95% !important;
+    }
+    
+    h1.font-size-26 {
+        font-size: 18px !important;
+        text-align: center;
+    }
+    
+    h2.font-size-26 {
+        font-size: 16px !important;
+    }
+}
