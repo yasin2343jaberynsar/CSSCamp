@@ -28,9 +28,9 @@ Installation
 CDN
 html
 <!-- Development -->
-<link rel="stylesheet" 
+'''<link rel="stylesheet" 
       href="https://cdn.jsdelivr.net/gh/yasin2343jaberynsar/CSSCamp@main/styles/csscamp.css">
-
+'''
 <!-- Production -->
 <link rel="stylesheet" 
       href="https://cdn.jsdelivr.net/gh/yasin2343jaberynsar/CSSCamp@main/styles/csscamp.min.css">
